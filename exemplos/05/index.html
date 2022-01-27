@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula dia 26/01/2022</title>
+</head>
+<body>
+    <h1>Listas</h1>
+    
+    <h2>Listas ordenadas</h2>
+    <p>Alguns instrumentos de metal, do mais grave para o mais agudo:</p>
+    <ol>
+        <li>Tuba
+        <li>Trombeta
+        <li>Trompa
+    </ol>
+    <!-- em algarismos romanos -->
+    <ol type="I" start="5">
+        <li>Tuba
+        <li>Trombeta
+        <li>Trompa
+    </ol>
+
+    <h2>Listas não ordendas</h2>
+    <p>Exemplo:</p>
+    <ul>
+        <li>primeiro item <!-- type="disc" -->
+        <li>segundo item
+        <ul> 
+            <li>1º subitem do segundo item <!-- type="circle" -->
+            <li>2º subitem do segundo item
+                <ul>
+                    <li>1º subsubitem... <!-- type="square" -->
+                </ul>
+        </ul>
+    </ul>
+
+    <h2>Listas misturadas</h2>
+    <p>Exemplo:</p>
+    <ul>
+        <li>1º item
+        <li>2º item
+            <ol>
+                <li>maça 
+                <li>banana
+            </ol>
+    </ul>
+    <p>Exemplo 2:</p>
+    <ol>
+        <li>arroz
+        <li>salada de frutas
+            <ul>
+                <li>maça 
+                <li>banana
+            </ul>
+        <li>feijão 
+        <li>macarrão
+    </ol>
+
+    <h2>Listas de definição</h2>
+    <p>Exemplo:</p>
+    <dl>
+        <dt><strong>Tema:</strong> Trombone</dt>
+        <dd><strong>Definição:</strong> Instrumento muito antigo, surgiu na idade média.</dd>
+        <dt><strong>Tema:</strong> Trombone</dt>
+        <dd><strong>Definição:</strong> Instrumento muito antigo, surgiu na idade média.</dd>
+        <dl> <!-- colocando outra 'dl' fica um espaço entre a lista -->
+            <dt><strong>Tema:</strong> Trombone</dt>
+            <dd><strong>Definição:</strong> Instrumento muito antigo, surgiu na idade média.</dd>
+        </dl>
+    </dl>
+
+    <h1>Abreviações</h1>
+
+    <p>Exemplo: Biden é presidente dos <abbr title="Estados Unidos da América">EUA.</abbr></p>
+    <p>Estamos aprendendo no curso a linguagem <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+    
+    <h1>Links</h1>
+
+    <p>GitHub: <a href="http://github.com/gabriela-gnsales" rel="author">acesse meu perfil aqui</a>.</p>
+    <p>Currículo Lattes: <a href="http://lattes.cnpq.br/7900958437208615" target="_blank" rel="external">acesse aqui</a>. Acesso em outra aba usando target="_blank".</p>
+    <p>Link para dentro do próprio site: <a href="index2.html" target="_self">meu portfólio</a>. Acesso na própria aba do site (default).</p>
+    <p>Link para dentro do próprio site: <a href="index2.html" target="_top">meu portfólio</a>. Acesso ...</p>
+    <p>Link para dentro do próprio site: <a href="index2.html" target="_parent" rel="next">meu portfólio</a>. Acesso ...</p>
+
+<!-- _blank vai abrir o link em uma nova janela em branco 
+_self vai abrir o link na janela ou frame atual (padrão) 
+_top vai desfazer todos os frames e abrir o destino no navegador completo 
+_parent similar ao uso do _top em uma referência à janela mãe nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir  -->
+
+<!-- REL:
+next indica que o link é para a próxima parte do documento atual 
+prev indica que o link é para a parte anterior do documento atual 
+author indica que é um link para o site do autor do artigo atual 
+external indica que é um link para outro site que não faz parte do site 
+nofollow indica que é um link para um site não endossado, como um link pago  -->
+
+    <h1>Baixar arquivo</h1>
+    <p><a href="arquivo/Aula01 Front-End Estático.pdf" download="meuteste.pdf" type="application/pdf">Baixe o arquivo.</a></p>
+    <p><a href="img/background_zoom.png" download="imagem.png">Baixe a imagem.</a></p>
+
+
+    <!-- application/zip 
+    text/html 
+    text/css 
+    text/Javascript
+    video/mp4
+    video/H264
+    video/JPEG
+    audio/aac
+    audio/mpeg
+    font/ttf
+    image/jpeg
+    image/png  -->
+</body>
+</html>
