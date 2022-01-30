@@ -8,20 +8,22 @@
 </head>
 <body>
     <h1>Questão #1</h1>
+    <h2>Botão em imagem</h2>
     <p>Acesse minha página do GitHub clicando na imagem abaixo!</p>
     <a href="https://github.com/gabriela-gnsales" rel="external" target="_blanck"><img width=10% src="img/logo-github.webp" alt="Logo GitHub"></a>
 
     <hr>
 
     <h1>Questão #2</h1>
+    <h2>Tabela</h2>
     <table>
         <thead>
         <tr>
             <th></th>
             <th><img width="32" src="img/bandeira-brasil-100px.png" alt="Bandeira do Brasil"></th>
-            <th><img width="32" src="img/bandeira-alemanha-100px.png" alt="Bandeira do Brasil"></th>
-            <th><img width="32" src="img/bandeira-franca-100px.png" alt="Bandeira do Brasil"></th>
-            <th><img width="32" src="img/bandeira-italia-100px.png" alt="Bandeira do Brasil"></th>
+            <th><img width="32" src="img/bandeira-alemanha-100px.png" alt="Bandeira da Alemanha"></th>
+            <th><img width="32" src="img/bandeira-franca-100px.png" alt="Bandeira da França"></th>
+            <th><img width="32" src="img/bandeira-italia-100px.png" alt="Bandeira da Itália"></th>
         </tr>
         </thead>
         <tbody>
@@ -45,8 +47,25 @@
     <hr>
 
     <h1>Questão #3</h1>
-
-    
-    
+    <h2>Formulário</h2>
+    <form action="" method="get">
+        <p>
+         <label for="nome">Nome:</label>
+         <input type="text" id="nome" name="usuario_nome"/>
+        </p> 
+         <p>
+             <label for="email">E-mail:</label>
+             <input type="email" id="email" name="usuario_email"/>
+         </p>
+         <p>
+             <label for="msg">Mensagem:</label>
+             <textarea id="msg" name="usuario_msg"></textarea>
+         </p>
+         <p>
+             <!-- <input type="submit" name="enviar" value="Enviar"> -->
+             <button type="submit">Enviar</button>
+         </p>
+     </form>
+   
 </body>
 </html>
