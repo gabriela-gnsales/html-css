@@ -48,24 +48,27 @@
 
     <h1>Questão #3</h1>
     <h2>Formulário</h2>
-    <form action="" method="get">
-        <p>
-         <label for="nome">Nome:</label>
-         <input type="text" id="nome" name="usuario_nome"/>
-        </p> 
-         <p>
-             <label for="email">E-mail:</label>
-             <input type="email" id="email" name="usuario_email"/>
-         </p>
-         <p>
-             <label for="msg">Mensagem:</label>
-             <textarea id="msg" name="usuario_msg"></textarea>
-         </p>
-         <p>
-             <!-- <input type="submit" name="enviar" value="Enviar"> -->
-             <button type="submit">Enviar</button>
-         </p>
-     </form>
-   
+    <h3>Qual é a sua dúvida?</h3>
+    <form action="https://www.google.com/search" method="get" target="_blank">
+        <div>
+            Pesquisa Google: <input type="text" name="q" id="google-search">
+        </div>
+        <br>
+        <div>
+            <input name="reset" type="reset" value="Limpar">
+            <input name="submit" type="submit" value="Submeter">
+        </div>        
+    </form>  
+    <br>
+    <form action="http://pt.wikipedia.org/wiki/Special:Pesquisar/" method="get" target="_blank">
+        <div>
+            Pesquisa Wikipédia: <input type="text" name="search" id="wikipedia-search">
+        </div>
+        <br>
+        <div>
+            <input name="reset" type="reset" value="Limpar">
+            <input name="submit" type="submit" value="Submeter">
+        </div>        
+    </form>    
 </body>
 </html>
