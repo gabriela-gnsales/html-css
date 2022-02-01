@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos aula 31/01/2022</title>
+</head>
+<body>
+    <h1>Exemplo da tag "div"</h1>
+    <div>
+        <h2>Empresa iFood</h2>
+        <P>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae impedit, consequuntur modi culpa assumenda earum vel rerum nihil! Vitae odit nulla itaque facere? Rem tempore consequatur ut aut, quis doloribus!
+        </P>
+        <P>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, ea magni error nemo totam quibusdam vel, incidunt nostrum, harum soluta illum! Laboriosam, necessitatibus nihil soluta molestiae fuga molestias aliquam nostrum!
+        </P>
+    </div>
+    <div class="" id="">
+        <h3>Produto Lanche</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A dolorum, ut autem ex odit inventore, harum dignissimos quaerat vel voluptates ea in provident ducimus ipsum cum. Nemo tenetur tempora adipisci.</p>
+    </div>
+
+    <h1>Exemplo de tabela</h1>
+    <div>
+        <h3>Produto X</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam corporis, nisi vero laudantium hic totam id illo est iusto debitis. Quibusdam aperiam aliquid inventore expedita hic reprehenderit, perspiciatis sit repudiandae.</p>
+        <table class="tabela-produtos" border="1" style="text-align: center; width: 100%"> 
+            <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="2">Produto X</th>
+                    <th colspan="2" rowspan="2">Concorrente 1</th>
+                    <th colspan="2" rowspan="2">Concorrente 2</th>
+                </tr>
+                <tr>
+                    <th>Grátis</th>
+                    <th>Premium</th>
+                    <!-- <th colspan="2"></th>
+                    <th colspan="2"></th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="background-color: black; color: white;">Recurso 1</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td colspan="2">X</td>
+                    <td colspan="2">X</td>
+                </tr>
+                <tr>
+                    <td style="background-color: black; color: white;">Recurso 2</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h1>Exemplo de formulário</h1>
+    <form action=" ">
+        <div>
+            <label>Nome:</label>
+            <input name="nome" type="text">
+        </div>
+        <div>
+            Senha: <input name="senha" type="password">
+        </div>
+        <div>
+            Selecione o curso:
+            <select name="curso">
+                <option>Selecione...</option>
+                <option value="WFR">Web Frontend & React</option>
+                <option value="WFS">Web Fullstack</option>
+                <option valeu="WRD">Web & React (Digital)</option>
+            </select>
+        </div>
+        <div>
+            <label>Fale sobre você:</label>
+            <textarea name="texto" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+            <input type="reset" type="reset" value="Limpar">
+            <input type="submit" type="submit" value="Submeter">
+        </div>        
+    </form>
+
+    <h1>Exemplo de imagem dinâmica</h1>
+    <p>Teste de imagem pequena, média e grande.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="Imagem flexível"> 
+    </picture>
+
+    <h1>Exemplo de reprodução de áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/a-ghost-town_quincas-moreira.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1>Exemplo de vídeo local</h1>
+    <p>Este vídeo está no meu servidor.</p>
+
+    <video width="560" controls autoplay loop>
+        <source src="midia/pexels-evangelia-rantou.m4v" type="video/mp4">
+    </video>
+
+    <h1>Exemplo de vídeo Youtube</h1>
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/uUjrpM6JTwA" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+
+    <h1>Exemplo de vídeo Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/161065615?h=eda899b702" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <p>
+        <a href="https://vimeo.com/161065615">PEPSI Lim&otilde;es</a> from <a href="https://vimeo.com/bellapapa">Isabella Papa</a> on <a href="https://vimeo.com">Vimeo</a>.
+    </p>            
+</body>
+</html>
