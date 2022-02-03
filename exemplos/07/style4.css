@@ -1,0 +1,19 @@
+body {
+    font-family: cursive;
+    background-color: black;
+    color: beige;
+}
+
+.titulo-novo {
+    color: fuchsia;
+    background-color: greenyellow;
+}
+
+.teste {
+    color: rgb(197, 114, 36);
+    background-color: rgba(34, 114, 185, 0.678);
+}
+
+.texto-centralizado {
+    text-align: center;
+}
