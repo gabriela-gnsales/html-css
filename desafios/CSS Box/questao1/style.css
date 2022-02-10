@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #132e4c;
+    height: 300px;
+}
+
+img {
+    border-radius: 50%;
+    background-color: white;
+    width: 200px;
+    height: 200px;    
+}
